@@ -2,6 +2,20 @@
 
 A modern, interactive dashboard application built with React and D3.js, featuring dual synchronized charts (scatter plot and bar chart) with a grayscale theme and professional styling.
 
+## Local development and customization
+
+This is a **starter application**, not an installable library or the hosted VizHub product. The root `package.json` has `"private": true`; its scripts are for local development and builds.
+
+```bash
+npm ci
+npm run dev
+npm run lint
+npm run build
+npm run preview
+```
+
+Inspect [`src/`](src/) for React/D3 chart and interaction code and [`public/`](public/) for static assets. Before replacing example data, verify the fields expected by the chart components and any cross-view selection logic. `npm run preview` serves a local production build, not a cloud deployment.
+
 ## Features
 
 - **Dual Interactive Charts**:
